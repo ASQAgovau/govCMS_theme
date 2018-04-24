@@ -1,0 +1,103 @@
+@import 'variables';
+@import 'base';
+@import 'mixins';
+
+.navigation__wrapper, .region-navigation {
+  background-color: $primaryColour;
+}
+
+.region-navigation .block__content {
+  & > .menu {
+    @media (min-width: $medium) and (max-width: $large) {
+      display: none!important;
+    }
+  }
+  & > .tinynav {
+    @media (min-width: $medium) and (max-width: $large) {
+      display: block!important;
+      margin: 10px 0;
+    }
+  }
+}
+
+.region-navigation .block__content > .menu {
+  text-transform: none;
+  background-color: $primaryColour;
+  & > li {
+    & ul {
+      // Force SF to display dropdowns at width of contents.
+      width: auto!important;
+    }
+  }
+}
+
+// Secondary navigation styles
+.header__secondary-menu {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  float: none;
+  padding: 15px 0;
+  max-width: none;
+  background-color: map_get($colors, 'primary3');
+
+  ul {
+    max-width: 100%;
+    margin: auto;
+    padding-right: $gutter;
+
+    @media (min-width: $medium) {
+      max-width: $medium;
+      padding-right: 0;
+    }
+
+    @media (min-width: $large) {
+      max-width: $large;
+    }
+
+    @media (max-width: $small) {
+      padding-right: 0;
+    }
+  }
+}
+
+.header__secondary-menu-list {
+  padding-right: $gutter;
+
+  li {
+    position: relative;
+    padding-left: 5px;
+
+    &:first-child {
+      &:before {
+        border: 0;
+      }
+    }
+    a {
+      &:visited,
+      &:link {
+        color: map_get($colors, 'footer-links');
+        display: block;
+        padding: 3px 10px;
+      }
+      &:hover {
+      }
+    }
+
+    @media (max-width: $small) {
+      padding-left: 0;
+      margin-bottom: 3px;
+    }
+  }
+}
+
+/*
+Main menu
+Hide about link so that we can keep it in the menu system without it appearing
+in the top nav.
+*/
+
+#menu-4320-1 {
+  display: none;
+}

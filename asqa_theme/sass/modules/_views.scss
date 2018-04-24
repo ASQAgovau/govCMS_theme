@@ -1,0 +1,65 @@
+//
+// @file
+// Overrides for views styles.
+//
+
+.views-exposed-form {
+  .views-exposed-widget {
+    float: none;
+  }
+}
+
+.pager-responsive__start-nav {
+  width: auto; // Fix for start pagination spanning to lines.
+}
+
+.view-rule-rows {
+  .views-row {
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 1em;
+    &:last-child {
+      border-bottom: 0;
+      margin-bottom: .5em;
+    }
+  }
+}
+
+.page-news-publications-publications-forms-guides {
+  .view-id-publications {
+    @extend %divider;
+  }
+}
+
+.view-publications {
+  article {
+    padding-bottom: 15px;
+    border-bottom: 1px solid map_get($colors, 'border-light');
+    margin-bottom: 0;
+
+    .links {
+      float: left;
+      margin-top: 10px;
+    }
+  }
+}
+
+.view-id-media_releases {
+  .views-row {
+    @extend %divider;
+    article {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.view {
+  .ui-accordion-content {
+    font-size: 15px;
+  }
+  th {
+    a {
+      font-family: $tradegothic-bold;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,113 @@
+@import '../variables';
+@import '../base';
+@import '../mixins';
+
+@mixin landing_panel_arrow($color) {
+  .bean-image-and-text.landing_page {
+    h2 {
+      &:after {
+        background-color: $color;
+      }
+    }
+  }
+}
+
+.bean-image-and-text.landing_page h2,
+.bean-image-and-text.landing_page h2 a {
+  font-family: $tradegothic;
+  font-weight: bold;
+}
+
+.panel-3col-33-stacked {
+  .panel-col {
+    .inside {
+      margin: 0;
+      @media (min-width: $medium) and (max-width: $large) {
+        margin: 0 .5em 1em 0;
+      }
+    }
+  }
+}
+
+.front {
+  .pane-latest-news {
+    background: #f5f5f5;
+    border: 1px solid #e2e2e2;
+    padding: .5em;
+
+    h3 {
+      font-family: $tradegothic;
+      font-weight: bold;
+      font-size: 1.3em;
+      line-height: normal;
+      margin-bottom: 6px;
+
+      a {
+        color: map_get($colors, 'links');
+      }
+    }
+  }
+}
+
+.bean-image-and-text.landing_page {
+  h2 {
+    a {
+      font-size: 1.3em;
+    }
+  }
+}
+
+.pane-bean-homepage-for-students {
+  @include landing_panel_arrow(map-get($colors, 'secondary4'));
+}
+
+.pane-bean-homepage-for-industry {
+  @include landing_panel_arrow(map-get($colors, 'secondary6'));
+}
+
+.section-standards {
+  #panels-ipe-regionid-left {
+    .panels-ipe-portlet-wrapper:first-child {
+      @include landing_panel_arrow(map-get($colors, 'secondary1'));
+    }
+    .panels-ipe-portlet-wrapper:nth-child(2n + 2) {
+      @include landing_panel_arrow(map-get($colors, 'secondary2'));
+    }
+    .panels-ipe-portlet-wrapper:nth-child(3n + 3) {
+      @include landing_panel_arrow(map-get($colors, 'secondary5'));
+    }
+    .panels-ipe-portlet-wrapper:nth-child(4n + 4) {
+      @include landing_panel_arrow(map-get($colors, 'secondary6'));
+    }
+  }
+  #panels-ipe-regionid-right {
+    .panels-ipe-portlet-wrapper:first-child {
+      @include landing_panel_arrow(map-get($colors, 'primary2'));
+    }
+    .panels-ipe-portlet-wrapper:nth-child(2n + 2) {
+      @include landing_panel_arrow(map-get($colors, 'primary3'));
+    }
+    .panels-ipe-portlet-wrapper:nth-child(3n + 3) {
+      @include landing_panel_arrow(map-get($colors, 'secondary4'));
+    }
+    .panels-ipe-portlet-wrapper:nth-child(4n + 4) {
+      @include landing_panel_arrow(map-get($colors, 'secondary3'));
+    }
+  }
+}
+
+// Mission statement
+.mission {
+  margin-left: 125px;
+  font-family: $arial;
+
+  .mission__title {
+    font-weight: normal;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: $h1-font-size;
+    color: darken(map_get($colors, primary1), 20%);
+  }
+}

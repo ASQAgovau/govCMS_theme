@@ -1,0 +1,41 @@
+//
+// @file
+// Contains styles relating to page bottom and page footer.
+//
+
+#footer-top {
+  background: map-get($colors, 'primary3');
+}
+.region-footer-bottom {
+  background: map-get($colors, 'primary1');
+  border: 0;
+
+  &:before {
+    background: none;
+    display: none;
+  }
+
+  .block{
+    margin: 0;
+    padding: 10px 20px;
+  }
+
+  a {
+    &:link,
+    &:visited {
+      color: #fff;
+    }
+  }
+
+  .block-menu {
+    .menu {
+      & > li {
+        & > a {
+          &:before {
+            border-color: white;
+          }
+        }
+      }
+    }
+  }
+}

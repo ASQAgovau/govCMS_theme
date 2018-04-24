@@ -1,0 +1,31 @@
+@import 'variables';
+@import 'base';
+@import 'mixins';
+
+.view-faqs {
+  .views-row {
+    margin-bottom: 5px;
+    padding: 12px 15px 12px 30px;
+    background-color: map_get($colors, 'lightest-grey');
+  }
+
+  h4 {
+    font-family: $arial;
+    font-weight: normal;
+    margin-bottom: 0;
+
+  }
+
+  & .ui-accordion {
+    .ui-accordion-header .ui-icon {
+      top: 10px;
+      left: -25px;
+    }
+
+    .ui-accordion-content {
+      margin-top: 15px;
+      padding-left: 15px;
+      border-left: 3px solid map_get($colors, 'secondary1');
+    }
+  }
+}
