@@ -2014,7 +2014,8 @@ tr.selected td {
     vertical-align: top;
     width: 100%; }
   .validation-sample-size-calculator .form-item input[type="number"] {
-    padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px; }
@@ -4044,7 +4045,8 @@ tr.selected td {
     vertical-align: top;
     width: 100%; }
   .validation-sample-size-calculator .form-item input[type="number"] {
-    padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px; }
@@ -6563,7 +6565,8 @@ tr.selected td {
     vertical-align: top;
     width: 100%; }
   .validation-sample-size-calculator .form-item input[type="number"] {
-    padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px; }
@@ -8669,7 +8672,8 @@ tr.selected td {
     vertical-align: top;
     width: 100%; }
   .validation-sample-size-calculator .form-item input[type="number"] {
-    padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px; }
@@ -10780,7 +10784,8 @@ tr.selected td {
     vertical-align: top;
     width: 100%; }
   .validation-sample-size-calculator .form-item input[type="number"] {
-    padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px; }
@@ -12847,7 +12852,8 @@ tr.selected td {
     vertical-align: top;
     width: 100%; }
   .validation-sample-size-calculator .form-item input[type="number"] {
-    padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px; }
@@ -14893,7 +14899,8 @@ tr.selected td {
     vertical-align: top;
     width: 100%; }
   .validation-sample-size-calculator .form-item input[type="number"] {
-    padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px; }

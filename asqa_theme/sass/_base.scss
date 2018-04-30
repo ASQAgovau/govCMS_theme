@@ -593,7 +593,9 @@ tr.selected td { background: #ffc }
   }
 
   .form-item input[type="number"] {
-    padding-right: 0;
+    // padding-right: 0;
+    direction: rtl;
+    padding-left: 0;
     text-align: right;
     float: right;
     width: 70px
