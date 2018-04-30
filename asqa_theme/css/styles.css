@@ -1991,13 +1991,13 @@ tr.selected td {
 
 /* Calculator */
 .validation-sample-size-calculator {
-  border: 1px solid #444;
   padding: 20px;
-  background: #fff;
+  background: #cad2dc;
   margin: 0px;
   width: 100%;
   max-width: 450px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 3px; }
   .validation-sample-size-calculator .form-item {
     margin: 5px 0; }
     .validation-sample-size-calculator .form-item:after {
@@ -2012,7 +2012,8 @@ tr.selected td {
   .validation-sample-size-calculator .form-item input {
     display: inline;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: 3px; }
   .validation-sample-size-calculator .form-item input[type="number"] {
     direction: rtl;
     padding-left: 0;
@@ -2020,7 +2021,7 @@ tr.selected td {
     float: right;
     width: 70px; }
   .validation-sample-size-calculator .output {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #00517d;
     padding: 20px 10px;
     padding-left: 0;
     margin-top: 10px;
@@ -4022,13 +4023,13 @@ tr.selected td {
 
 /* Calculator */
 .validation-sample-size-calculator {
-  border: 1px solid #444;
   padding: 20px;
-  background: #fff;
+  background: #cad2dc;
   margin: 0px;
   width: 100%;
   max-width: 450px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 3px; }
   .validation-sample-size-calculator .form-item {
     margin: 5px 0; }
     .validation-sample-size-calculator .form-item:after {
@@ -4043,7 +4044,8 @@ tr.selected td {
   .validation-sample-size-calculator .form-item input {
     display: inline;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: 3px; }
   .validation-sample-size-calculator .form-item input[type="number"] {
     direction: rtl;
     padding-left: 0;
@@ -4051,7 +4053,7 @@ tr.selected td {
     float: right;
     width: 70px; }
   .validation-sample-size-calculator .output {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #00517d;
     padding: 20px 10px;
     padding-left: 0;
     margin-top: 10px;
@@ -6542,13 +6544,13 @@ tr.selected td {
 
 /* Calculator */
 .validation-sample-size-calculator {
-  border: 1px solid #444;
   padding: 20px;
-  background: #fff;
+  background: #cad2dc;
   margin: 0px;
   width: 100%;
   max-width: 450px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 3px; }
   .validation-sample-size-calculator .form-item {
     margin: 5px 0; }
     .validation-sample-size-calculator .form-item:after {
@@ -6563,7 +6565,8 @@ tr.selected td {
   .validation-sample-size-calculator .form-item input {
     display: inline;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: 3px; }
   .validation-sample-size-calculator .form-item input[type="number"] {
     direction: rtl;
     padding-left: 0;
@@ -6571,7 +6574,7 @@ tr.selected td {
     float: right;
     width: 70px; }
   .validation-sample-size-calculator .output {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #00517d;
     padding: 20px 10px;
     padding-left: 0;
     margin-top: 10px;
@@ -8649,13 +8652,13 @@ tr.selected td {
 
 /* Calculator */
 .validation-sample-size-calculator {
-  border: 1px solid #444;
   padding: 20px;
-  background: #fff;
+  background: #cad2dc;
   margin: 0px;
   width: 100%;
   max-width: 450px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 3px; }
   .validation-sample-size-calculator .form-item {
     margin: 5px 0; }
     .validation-sample-size-calculator .form-item:after {
@@ -8670,7 +8673,8 @@ tr.selected td {
   .validation-sample-size-calculator .form-item input {
     display: inline;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: 3px; }
   .validation-sample-size-calculator .form-item input[type="number"] {
     direction: rtl;
     padding-left: 0;
@@ -8678,7 +8682,7 @@ tr.selected td {
     float: right;
     width: 70px; }
   .validation-sample-size-calculator .output {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #00517d;
     padding: 20px 10px;
     padding-left: 0;
     margin-top: 10px;
@@ -10761,13 +10765,13 @@ tr.selected td {
 
 /* Calculator */
 .validation-sample-size-calculator {
-  border: 1px solid #444;
   padding: 20px;
-  background: #fff;
+  background: #cad2dc;
   margin: 0px;
   width: 100%;
   max-width: 450px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 3px; }
   .validation-sample-size-calculator .form-item {
     margin: 5px 0; }
     .validation-sample-size-calculator .form-item:after {
@@ -10782,7 +10786,8 @@ tr.selected td {
   .validation-sample-size-calculator .form-item input {
     display: inline;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: 3px; }
   .validation-sample-size-calculator .form-item input[type="number"] {
     direction: rtl;
     padding-left: 0;
@@ -10790,7 +10795,7 @@ tr.selected td {
     float: right;
     width: 70px; }
   .validation-sample-size-calculator .output {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #00517d;
     padding: 20px 10px;
     padding-left: 0;
     margin-top: 10px;
@@ -12829,13 +12834,13 @@ tr.selected td {
 
 /* Calculator */
 .validation-sample-size-calculator {
-  border: 1px solid #444;
   padding: 20px;
-  background: #fff;
+  background: #cad2dc;
   margin: 0px;
   width: 100%;
   max-width: 450px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 3px; }
   .validation-sample-size-calculator .form-item {
     margin: 5px 0; }
     .validation-sample-size-calculator .form-item:after {
@@ -12850,7 +12855,8 @@ tr.selected td {
   .validation-sample-size-calculator .form-item input {
     display: inline;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: 3px; }
   .validation-sample-size-calculator .form-item input[type="number"] {
     direction: rtl;
     padding-left: 0;
@@ -12858,7 +12864,7 @@ tr.selected td {
     float: right;
     width: 70px; }
   .validation-sample-size-calculator .output {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #00517d;
     padding: 20px 10px;
     padding-left: 0;
     margin-top: 10px;
@@ -14876,13 +14882,13 @@ tr.selected td {
 
 /* Calculator */
 .validation-sample-size-calculator {
-  border: 1px solid #444;
   padding: 20px;
-  background: #fff;
+  background: #cad2dc;
   margin: 0px;
   width: 100%;
   max-width: 450px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  border-radius: 3px; }
   .validation-sample-size-calculator .form-item {
     margin: 5px 0; }
     .validation-sample-size-calculator .form-item:after {
@@ -14897,7 +14903,8 @@ tr.selected td {
   .validation-sample-size-calculator .form-item input {
     display: inline;
     vertical-align: top;
-    width: 100%; }
+    width: 100%;
+    border-radius: 3px; }
   .validation-sample-size-calculator .form-item input[type="number"] {
     direction: rtl;
     padding-left: 0;
@@ -14905,7 +14912,7 @@ tr.selected td {
     float: right;
     width: 70px; }
   .validation-sample-size-calculator .output {
-    border-top: 1px solid #e2e2e2;
+    border-top: 1px solid #00517d;
     padding: 20px 10px;
     padding-left: 0;
     margin-top: 10px;
