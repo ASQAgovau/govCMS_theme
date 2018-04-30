@@ -26,7 +26,7 @@ gulp.task('watch', function() {
 gulp.task('browser-sync', function() {
   bs.init({
     proxy: {
-      target: "http://eejgollan.dev.dd:8083"
+      target: "asqa.mg"
     }
   });
 });

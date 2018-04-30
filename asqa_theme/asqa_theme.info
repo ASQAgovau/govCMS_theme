@@ -73,6 +73,7 @@ scripts[] = js/jquery.stickyTableHeaders.min.js
 scripts[] = js/agency.js
 scripts[] = js/decisionTable.js
 scripts[] = libraries/gray/js/jquery.gray.js
+scripts[] = js/validation_calculator.js
 
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
